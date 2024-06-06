@@ -252,8 +252,26 @@ button {
     align-items: center;
     gap: 48px;
     margin-top: 32px;
+    overflow: hidden;
 }
 
 .brands-images > img {
     height: 75px;
+}
+
+/* responsive brands */
+@media screen and (max-width: 1280px) {
+    .brands > h2 {
+        font-size: 24px;
+    }
+
+    .brands-images {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .brands-images > img {
+        height: 50px;
+
+    }
 }
