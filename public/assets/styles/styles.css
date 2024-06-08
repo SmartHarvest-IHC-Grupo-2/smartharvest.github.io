@@ -429,3 +429,43 @@ button {
     display: flex;
     gap: 16px;
 }
+.side-image {
+    height: 200px;
+}
+.middle-image {
+    height: 300px;
+}
+
+.footer-images {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+/* Responsive footer */
+@media screen and (max-width: 1280px) {
+    .footer-container h3 {
+        font-size: 18px;
+    }
+
+    .action-call a {
+        width: 200px;
+    }
+
+    .footer-images {
+        flex-direction: column;
+    }
+
+
+    .middle-image {
+        height: 200px;
+    }
+
+    .contact-footer {
+        flex-direction: column;
+        gap: 32px;
+        align-items: start;
+    }
+}
+
+
