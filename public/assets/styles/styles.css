@@ -469,4 +469,74 @@ button {
     }
 }
 
+.About-us {
+    background-color: #087C59; 
+    color: white; 
+    padding-top: 75px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2.25rem;
+}
 
+
+.About-desc {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 25px;
+    margin-left: 25px;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+
+.About-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+
+    /*margin-left: 50px;*/
+    text-align: left;
+    padding-bottom: 50px;
+}
+    
+.About-col h3 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 2.10rem;
+}
+.About-col p{
+    font-size: 1.25rem;
+}
+
+.About-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 50px;  
+}
+
+
+
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .About-desc {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .About-col {
+        margin-left: 0; 
+        text-align: center;
+    }
+
+    .About-img img {
+        margin: 0 auto; 
+    }
+}
