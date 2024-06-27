@@ -5,5 +5,6 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
     const formData = new FormData(form);
     const formObject = Object.fromEntries(formData.entries());
-  alert("Registro exitoso")    
+    alert("Registro exitoso");    
+    console.log(formObject);
 });
